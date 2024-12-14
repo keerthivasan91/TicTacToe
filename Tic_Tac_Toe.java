@@ -44,6 +44,7 @@ class TicTacToe {
                 System.out.println("This move is not valid");
             }
         }
+        sc.close();
     }
 
     public void computerMove() {
